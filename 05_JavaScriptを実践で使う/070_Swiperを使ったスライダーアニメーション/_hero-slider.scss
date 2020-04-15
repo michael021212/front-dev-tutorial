@@ -16,7 +16,7 @@
   }
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -66,12 +66,7 @@
     left: 0;
     bottom: 0;
     width: 6px;
-    @include animation(
-      $name: kf-arrow-anime,
-      $iteration-count: infinite,
-      $duration: 2s,
-      $timing-function: linear
-    );
+    @include animation($name: kf-arrow-anime, $iteration-count: infinite, $duration: 2s, $timing-function: linear)
   }
 
   &__scrolltext {
